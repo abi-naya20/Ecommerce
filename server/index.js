@@ -150,8 +150,6 @@ app.get('/items/:brand/:category', async (req, res) => {
     }
 })
 
-
-// Add to Cart
 app.post('/api/add', async (req, res) => {
     try {
         const { userEmail, productId } = req.body;
@@ -192,7 +190,7 @@ app.delete('/api/cart/remove/:productId/:userEmail', async (req, res) => {
     }
 })
 
-// Get Cart Items
+
 app.get('/api/cart/:email', async (req, res) => {
     const { email } = req.params;
     try {
