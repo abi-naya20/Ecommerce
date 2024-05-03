@@ -22,8 +22,7 @@ function Home() {
                  </div>
                 </div>
             </div>
-            <dr>
-            </dr>
+        
           
        </div> 
     );
